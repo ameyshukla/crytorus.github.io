@@ -1,0 +1,243 @@
+@charset "utf-8";
+* {
+	color:#fff;
+	font-family:'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+}
+body {
+	background:#000;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+}
+img{
+	border:none
+}
+
+#indexWrapper #wrapper{
+	margin-top:10%;
+	text-align:center;
+	background:url("img/darkclouds.jpg") no-repeat center top;
+}
+#musicWrapper #wrapper,
+#musicWrapper #wrapper01,
+#musicWrapper #wrapper02,
+#musicWrapper #wrapper03,
+#musicWrapper #wrapper04,
+#musicWrapper #wrapper05{
+	margin-top:10%;
+	text-align:center;
+}
+#infoWrapper #wrapper{
+	margin-top:10%;
+	text-align:center;
+	background:#000 no-repeat center top;
+}
+#linkWrapper #wrapper{
+	margin-top:10%;
+	text-align:center;
+	background:url("img/slight.png") no-repeat center top;
+}
+#musicWrapper #wrapper01
+{
+	background:url("img/starshape.png") no-repeat center top;
+	
+}
+#musicWrapper #wrapper02
+{
+	background:url("img/spidernet.png") no-repeat center top;
+	
+}
+#musicWrapper #wrapper03
+{
+	background:url("img/tree.jpg") no-repeat center top;
+	
+}
+#musicWrapper #wrapper04
+{
+	background:url("img/starshape.png") no-repeat center top;
+	
+}
+#musicWrapper #wrapper05
+{
+	background:url("img/starshape.png") no-repeat center top;
+	
+}
+#container {
+	margin:0 auto;
+	display:block;
+	width:650px;
+	text-align:left
+}
+/* area1 */
+#area1 {
+	position:relative;
+	float:left;
+	width:200px;
+	height:450px;
+}
+#area1 ul {
+	margin:80px 10px 10px 0;
+	list-style:none
+}
+#menu {
+	line-height:1.4;
+	text-align:left;
+	font-size:16px;
+	font-weight:bold
+}
+#menu li {
+	margin-bottom:8px;
+}
+#menu li.selected a{
+	color:#6699CC;
+}
+#menu li a:hover{
+	font-weight:bold;
+}
+ul#submenu{
+	margin:10px 0 10px 15px;
+	font-size:12px;
+}
+.open{	
+	display:block;
+}
+.closed{	
+	display:none;
+}
+#logo {
+margin-top:50px;
+}
+/* area2 */
+#area2 {
+	float:left;
+	position:relative;
+	width:400px;
+	text-align:center;
+}
+
+#windowpane,
+#windowpaneM,
+#windowpaneI,
+#windowpaneL{
+	margin-top:35px;
+}
+#area2 h2 {
+	margin:0;
+	padding:8px 0;
+	width:400px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#area2 h2 span{
+	position:absolute;
+	right:0;
+	font-size:11px;
+	font-weight:normal;
+}
+#area2 #infopane {
+	width:350px;
+	line-height:1.4;
+	font-size:12px;
+	text-align:left;
+}
+.sign {
+	text-align:right;
+}
+
+/* music,info,link */
+#windowpaneM
+{
+	padding-bottom:320px;
+	background:url("img/windowpane3.png") no-repeat center top;
+}
+#windowpaneI
+{
+	padding-bottom:320px;
+	background:url("img/windowpane4.png") no-repeat center top;
+}
+#windowpaneL
+{
+	padding-bottom:320px;
+	background:url("img/windowpane5.png") no-repeat center top;
+}
+.songs,
+.infos,
+.links{
+	position:relative;
+	font-size:12px;
+	text-align:left;
+}
+.infos div
+{
+	margin-bottom:30px;
+	border-bottom:1px dotted #999;	
+}
+.songs h3,
+.infos h3,
+.links h3{
+	margin-bottom:3px;
+	font-size:13px;
+	text-align:left;
+}
+.songs div
+{
+	margin-left:10px;
+	padding-bottom:30px;
+	border-left:1px solid #999;
+}
+.songs span
+{
+	padding:0;
+	font-weight:bold;
+}
+
+.songs p
+{
+	margin:5px 15px 0 15px;	
+}
+.songs p.null
+{
+	margin:30px 0;	
+}
+a span.mp3	
+{
+	padding:0 5px;
+	color:#6699CC;
+}
+img.play
+{
+	border:none;
+	position:relative;
+	top:5px;	
+}
+.size
+{
+	padding-left:10px;	
+	font-size:11px;
+}
+.infos p
+{
+	margin:10px 0;	
+}
+.infos h3 span
+{
+	padding-left:10px;
+	font-weight:normal;
+	font-size:10px;
+	color:#999
+}
+.asfa01{
+	color:#FFF;
+}
+.asfa02{
+	color:#666
+}
+.asfa03{
+	color:#999
+}
